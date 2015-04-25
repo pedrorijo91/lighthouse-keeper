@@ -1,0 +1,3 @@
+[submodule "gitmodules/yoAPI"]
+	path = gitmodules/yoAPI
+	url = git@github.com:pedrorijo91/YoPy.git
