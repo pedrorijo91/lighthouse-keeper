@@ -1,6 +1,6 @@
 import ConfigParser
 
-class ConfigReader:
+class ConfigReader(object):
 
 	DEFAULT_SLEEP_TIME = 5
 	DEFAULT_MAX_ERRORS = 12
@@ -53,7 +53,7 @@ class ConfigReader:
 			return DEFAULT_YO_LINK
 
 	def read_email_server(self):
-		return self.config.get('email', 'server')	
+		return self.config.get('email', 'server')
 
 	def read_email_account(self):
 		return self.config.get('email', 'account')
